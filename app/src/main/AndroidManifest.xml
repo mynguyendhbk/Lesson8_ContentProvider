@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:authorities="edu.nguyenmy.contentprovider"
+            android:name=".local.ItemProvider">
+
+        </provider>
     </application>
 
 </manifest>
